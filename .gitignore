@@ -75,3 +75,9 @@ tmp/
 .env
 test/local/
 .DS_Store
+
+# code
+
+## ignore java build files
+code/java/**/target/
+code/java/**/build/
