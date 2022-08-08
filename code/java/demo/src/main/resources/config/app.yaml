@@ -1,0 +1,4 @@
+name: demo
+kafka:
+  brokers:
+  - kafka:9091

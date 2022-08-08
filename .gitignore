@@ -77,7 +77,12 @@ test/local/
 .DS_Store
 
 # code
+protos/
 
 ## ignore java build files
+code/java/**/bin/
 code/java/**/target/
 code/java/**/build/
+
+## ignore go build files
+code/go/**/bin/

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.zhaolion.flink_clickhouse_stack.event";
+option java_outer_classname = "UserDurationEventProto";
+option go_package = "github.com/zhaolion/flink-clickhouse-stack/event";
+
+package event;
+
+message UserDurationEvent {
+    string id = 1;
+    int64 event_at_ns = 2;
+    int32 duration_sec = 3;
+    uint64 user_id = 4;
+}
